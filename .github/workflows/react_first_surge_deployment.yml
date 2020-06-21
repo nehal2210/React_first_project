@@ -38,4 +38,4 @@ jobs:
       run: npm install --global surge
       
     - name: Deeploy Surge
-      run: surge ./build reaactfirstproject_by_nehal.surge.sh ${{ secrets.SURGE_TOKEN }} 
+      run: surge ./ reaactfirstproject_by_nehal.surge.sh ${{ secrets.SURGE_TOKEN }} 
